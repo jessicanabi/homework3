@@ -24,7 +24,11 @@ main{
 h1{
   color: #c12258;
   font-size: 2em;
+  text-align: center;
+  line-height: 2;
 }
+
+
 
 caption{
   margin:5px 0px;
@@ -41,6 +45,10 @@ a{font-size: 16px;
   color: #C12258;
   text-decoration: underline wavy;
 
+}
+
+a:focus { 
+  outline: 3px dashed #417243; 
 }
 
 table{
