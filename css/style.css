@@ -110,7 +110,25 @@ tbody tr:hover{
   background-color: rgba(126, 8, 48, 0.25);
 }
 
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child{
+  border-top-right-radius:10px;
+
+}
+
+thead tr:first-child th:first-child{
+  border-top-left-radius:10px;
+  
+}
+
+thead tr:first-child th:first-child{
+  border-bottom-left-radius:10px;
+  
+}
+
+thead tr:first-child th:first-child{
+  border-bottom-right-radius:10px;
+  
+}
 
 footer{
   width:100%;
