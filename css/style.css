@@ -64,9 +64,19 @@ table{
 .colhead{
   background-color: #7e0830;
   color: #FFFFFF;
+  min-width: 125px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  text-transform: uppercase;
 }
 
 .rowhead{
+  border-right: 2px solid #000000;
+  border-top: 2px solid #000000;
+  vertical-align: middle;
+  padding: 10px;
+  text-align: center;
 
 }
 
