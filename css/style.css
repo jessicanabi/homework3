@@ -18,6 +18,7 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-color: #DDDDDD;
+  background-attachment: fixed;
 }
 
 main{
@@ -46,9 +47,7 @@ a{
   color: #C12258;
   text-decoration-line: underline; 
   text-decoration-style: wavy;
-
 }
-
 
 
 table{
@@ -82,7 +81,6 @@ td{
   border-top: 2px solid #000000;
   vertical-align: middle;
   border-width: 2px;
-
 }
 
 
@@ -110,11 +108,11 @@ thead tr:first-child th:last-child{
   border-top-right-radius:10px;
 }
 
-thead tr:last-child th:first-child{
+tbody tr:last-child th:first-child{
   border-bottom-left-radius:10px;
 }
 
-thead tr:last-child td:last-child{
+tbody tr:last-child td:last-child{
   border-bottom-right-radius:10px;
 }
 
