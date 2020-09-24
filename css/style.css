@@ -93,7 +93,9 @@ tr:nth-child(odd){
 tr:nth-child(even){
   background-color:#D1D1D1;
 }
-
+tr:hover{
+  background-color: rgba(126, 8, 32, 0.25);
+}
 
 
 *:focus{ 
@@ -116,9 +118,7 @@ tbody tr:last-child td:last-child{
   border-bottom-right-radius:10px;
 }
 
-tr:hover{
-  background-color: rgba(126, 8, 48, 0.25);
-}
+
 
 footer{
   width:100%;
