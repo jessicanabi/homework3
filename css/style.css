@@ -39,10 +39,6 @@ caption{
 
 p{
   padding-top: 15px;
-  padding-right: 0px;
-  padding-left: 0px;
-  padding-bottom: 0px;
-
 }
 
 a{
@@ -65,9 +61,9 @@ table{
   background-color: #7e0820;
   color: #FFFFFF;
   min-width: 125px;
+  padding: 10px;
   text-align: center;
   vertical-align: middle;
-  padding: 10px;
   text-transform: uppercase;
 }
 
@@ -113,19 +109,14 @@ thead tr:first-child th:first-child{
 
 thead tr:first-child th:last-child{
   border-top-right-radius:10px;
-
 }
-
-  
 
 thead tr:last-child th:first-child{
   border-bottom-left-radius:10px;
-  
 }
 
 thead tr:last-child td:last-child{
   border-bottom-right-radius:10px;
-  
 }
 
 footer{
