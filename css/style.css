@@ -99,7 +99,6 @@ tbody tr:nth-child(even){
 }
 
 tbody tr:hover{
-  
   background-color: rgba(126, 8, 48, 0.25);
 }
 
