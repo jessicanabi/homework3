@@ -62,7 +62,7 @@ table{
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
   min-width: 125px;
   text-align: center;
@@ -125,7 +125,7 @@ thead tr:last-child th:first-child{
   
 }
 
-thead tr:last-child td:first-child{
+thead tr:last-child td:last-child{
   border-bottom-right-radius:10px;
   
 }
