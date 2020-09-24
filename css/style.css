@@ -89,12 +89,9 @@ td{
 
 }
 
-tr{
-
-}
 
 *:focus { 
-  outline: 3px dashed #417243; 
+  border: 3px dashed #417243; 
 }
 
 tbody tr:nth-child(odd){
