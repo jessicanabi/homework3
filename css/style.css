@@ -87,16 +87,14 @@ td{
 
 
 
-tbody tr:nth-child(odd){
+tr:nth-child(odd){
   background-color: transparent;
 }
-tbody tr:nth-child(even){
+tr:nth-child(even){
   background-color:#D1D1D1;
 }
 
-tbody tr:hover{
-  background-color: rgba(126, 8, 48, 0.25);
-}
+
 
 *:focus{ 
   border: 3px dashed #417243; 
@@ -116,6 +114,10 @@ tbody tr:last-child th:first-child{
 
 tbody tr:last-child td:last-child{
   border-bottom-right-radius:10px;
+}
+
+tr:hover{
+  background-color: rgba(126, 8, 48, 0.25);
 }
 
 footer{
