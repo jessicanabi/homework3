@@ -51,9 +51,10 @@ a{
 
 
 table{
+    border-radius: 10px;
     border: 2px solid #000000;
     margin: auto;
-    border-radius: 10px;
+    
 }
 
 .colhead{
@@ -64,6 +65,7 @@ table{
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
+  border-left: 2px #000000
 }
 
 .rowhead{
