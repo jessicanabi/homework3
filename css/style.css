@@ -87,15 +87,14 @@ td{
 
 
 
-
-tr:nth-child(odd){
+tbody tr:nth-child(odd){
   background-color: transparent;
 }
-tr:nth-child(even){
+tbody tr:nth-child(even){
   background-color:#D1D1D1;
 }
 
-tr:hover{
+tbody tr:hover{
   background-color: rgba(126, 8, 48, 0.25);
 }
 
